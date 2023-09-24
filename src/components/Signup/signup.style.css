@@ -1,0 +1,15 @@
+
+
+.signup-form{
+    width: 65vh;
+    margin:auto;
+    border:3px solid rgb(179, 173, 173);
+    border-radius: 10px;
+    padding: 3rem;
+    margin-top: 7%;
+    box-shadow: -0.6rem -0.6rem 23px #e9e8e8;
+}
+
+h2{
+    text-align: center;
+}
