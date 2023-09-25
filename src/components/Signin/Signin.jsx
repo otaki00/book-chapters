@@ -9,7 +9,7 @@ const Signin = () => {
     password: '',
   })
   const schema = {
-    email: Joi.string().email({ tlds: false }).required(),
+    email: Joi.string().email().required(),
     password: Joi.string().pattern(new RegExp('^(?=.*[a-zA-Z0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,16}$')).required()
 };
 
