@@ -8,7 +8,7 @@ const Signup = () => {
     const [user, setUser] = useState({})
     const schema = {
         username: Joi.string().min(6).max(16).required(),
-        email: Joi.string().email().required(),
+        email: Joi.string().email({tlds:  {allow: false}}).required(),
         password: Joi.string().pattern(new RegExp('^(?=.*[a-zA-Z0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,16}$')).required()
     };
 

@@ -4,7 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home/Home'
 import Signin from './components/Signin/Signin'
 import Signup from './components/Signup/Signup'
-
+import NewForm from './components/Signin/Form'
 function App() {
 
   return (
