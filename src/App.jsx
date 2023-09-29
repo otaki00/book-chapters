@@ -2,9 +2,8 @@ import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home/Home'
-import Signin from './components/Signin/Signin'
-import Signup from './components/Signup/Signup'
-import NewForm from './components/Signin/Form'
+import Signin from './components/Forms/Signin/Signin'
+import Signup from './components/Forms/Signup/Signup'
 function App() {
 
   return (
